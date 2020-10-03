@@ -2,11 +2,12 @@
 """Mysqr class"""
 
 class Mysqr():
-
+    """sqr"""
     width = 0
     height = 0
 
     def __init__(self, *args, **kwargs):
+        """init"""
         for key, value in kwargs.items():
             setattr(self, key, value)
 
@@ -15,9 +16,11 @@ class Mysqr():
         return self.width * self.height
 
     def PermiterOfMySquare(self):
+        """ perim"""
         return (self.width * 2) + (self.height * 2)
 
     def __str__(self):
+        """ str func"""
         return "{}/{}".format(self.width, self.height)
 
 
