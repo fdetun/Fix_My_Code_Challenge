@@ -22,7 +22,7 @@ class Square():
 
     def __str__(self):
         """ str func"""
-        return "{}/{}".format(self.height, self.width)
+        return "{}/{}".format(self.width, self.height)
 
 
 if __name__ == "__main__":
