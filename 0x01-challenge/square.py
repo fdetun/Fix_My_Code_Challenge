@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 """Mysqr class"""
 
-class Mysqr():
+class Square():
     """sqr"""
     width = 0
     height = 0
@@ -25,8 +25,8 @@ class Mysqr():
 
 
 if __name__ == "__main__":
-
-    s = Mysqr(width=12, height=9)
+    """done"""
+    s = Square(width=12, height=9)
     print(s)
     print(s.area_of_my_square())
     print(s.PermiterOfMySquare())
